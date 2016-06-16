@@ -169,6 +169,13 @@
     instructions.text = NSLocalizedString(@"TakeYourPictureKey", @"");
 
     [picker.view addSubview:instructions];
+    
+    UIImageView *qr_overlay = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"PhotoSilhouette"]];
+    qr_overlay.frame = CGRectMake(0,0,picker.view.bounds.size.width,picker.view.bounds.size.width * 374 / 314);
+    qr_overlay.alpha = 0.35;
+    qr_overlay.center = CGPointMake( picker.view.bounds.size.width / 2, picker.view.bounds.size.height / 2);
+    [picker.view addSubview:qr_overlay];
+
     picker.delegate = self;
     picker.sourceType = UIImagePickerControllerSourceTypeCamera;
     if([UIImagePickerController isCameraDeviceAvailable:UIImagePickerControllerCameraDeviceFront])

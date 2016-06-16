@@ -13,6 +13,7 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		3AB24ACB152B8CE500B49876 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB24ACA152B8CE500B49876 /* ImageIO.framework */; };
 		4AD5C40814E0661E00081B20 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD5C40714E0661E00081B20 /* CoreData.framework */; };
+		53B5C5811D11C2E500F67F32 /* PhotoSilhouette.png in Resources */ = {isa = PBXBuildFile; fileRef = 53B5C5801D11C2E500F67F32 /* PhotoSilhouette.png */; };
 		5B1D998B178CC3A700661453 /* shuffle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1D9981178CC3A700661453 /* shuffle@2x.png */; };
 		5B1D998D178CC3A700661453 /* pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1D9983178CC3A700661453 /* pause@2x.png */; };
 		5B1D998F178CC3A700661453 /* dark_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1D9985178CC3A700661453 /* dark_play@2x.png */; };
@@ -331,6 +332,7 @@
 		2EDEFDD71454153A152F5672 /* libPods-ARIS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARIS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AB24ACA152B8CE500B49876 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		4AD5C40714E0661E00081B20 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		53B5C5801D11C2E500F67F32 /* PhotoSilhouette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PhotoSilhouette.png; sourceTree = "<group>"; };
 		5B1D9981178CC3A700661453 /* shuffle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shuffle@2x.png"; sourceTree = "<group>"; };
 		5B1D9983178CC3A700661453 /* pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@2x.png"; sourceTree = "<group>"; };
 		5B1D9985178CC3A700661453 /* dark_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark_play@2x.png"; sourceTree = "<group>"; };
@@ -1247,6 +1249,7 @@
 		AABC6F3D1727398B0074CC21 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				53B5C5801D11C2E500F67F32 /* PhotoSilhouette.png */,
 				C0D3B9D81AB2119D00F1D582 /* note_icon.png */,
 				AB45E7391A014FF800A7A77B /* object default icons */,
 				AAE3C9A81A2537DD001D33CF /* reload.png */,
@@ -2131,6 +2134,7 @@
 				AA2D215117DE560C00CF4198 /* todo@2x.png in Resources */,
 				AAB62FE218C689DD00030F48 /* notebook@2x.png in Resources */,
 				AA09B8EB18E1EB5500A45562 /* cabinet@2x.png in Resources */,
+				53B5C5811D11C2E500F67F32 /* PhotoSilhouette.png in Resources */,
 				AA0D161118EDF14500D856F1 /* globe_red@2x.png in Resources */,
 				AA2D213917DE560C00CF4198 /* locationarrow@2x.png in Resources */,
 				AABC6FED1727398B0074CC21 /* comment.png in Resources */,
